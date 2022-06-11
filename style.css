@@ -1,3 +1,98 @@
-#Titulo{
-    color: #f00;
+body{
+    background-color: rgb(206, 12, 12, 70%);
+    
+}
+
+#titulo{
+    color: rgb(206, 12, 12);
+    margin: 1.3cm 1cm 0cm 7cm;
+    font-size:1cm;
+    background-color:#fff;
+    border-radius: 1cm;
+    padding: 5px 50px 8px 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0, 0, 0, .1), 
+    0 0 5px rgba(0, 0, 0, .1), 
+    0 1px 3px rgba(0, 0, 0, .3), 
+    0 3px 5px rgba(0, 0, 0, .2), 
+    0 5px 10px rgba(0, 0, 0, .25), 
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15) ;   
+}
+
+#logo{
+    margin: 0cm 0cm 0cm 1cm;
+    border-radius: 0.5cm;
+    float: left
+}
+
+
+.img2{margin: 0.5cm 0cm 0cm 1cm;
+    float: left;
+    border-radius: 1cm;
+
+}
+
+.texto-justificado{
+    text-align: justify;
+    margin: 0.8cm 1cm 0cm 15cm;
+    font-size: 1.2cm;
+    color: #fff;
+
+}
+
+
+#funcionamiento{
+    font-size: 1cm;
+    color: #fff;
+    text-align: center;
+}
+
+.primer-paso{
+    font-size: 0.8cm;
+    color: white;
+    margin: 2cm 6cm 0cm 20cm;
+    text-align: justify;
+}
+
+.segundo-paso{margin:5cm 15cm 0cm 7cm;
+    font-size: 0.8cm;
+    color: white;
+    text-align: justify;
+}
+
+.fimg2{margin: 2cm 7cm 0cm 1cm;
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+.tercer-paso{font-size: 0.8cm;
+    color: white;
+    margin: 6cm 6cm 0cm 15cm;
+    text-align: justify;
+}
+
+.fimg3{margin: 4cm 1cm 0cm 10cm;
+    float: left;
+    width: 150px;
+    height: 300px;
+}
+
+.cuarto-paso{margin:5cm 15cm 0cm 7cm;
+    font-size: 0.8cm;
+    color: white;
+    text-align: justify;
+}
+
+.fimg4{margin: 3cm 10cm 0cm 1cm;
+    float: right;
+    width: 150px;
+    height: 300px;
 }
