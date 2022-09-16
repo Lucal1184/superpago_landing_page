@@ -1,98 +1,239 @@
 body{
-    background-color: rgb(206, 12, 12, 70%);
+    margin:0;
+    padding:0;
+    padding-top: 70px;
+} 
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+                                /* estilo cabecera*/
+
+header{
+    display:flex;
+    background-color: rgb(192, 69, 69);
+    height: 70px;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+    top:0;
+    position: fixed;  
+    font-size:smaller;
+}
+
+
+.logo{
+    display:flex;
+    align-items: center;
+}
+
+
+.logo-img{
+    height: 60px;
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+
+nav a{
+    font-weight: 600px;
+    font-size:22px;
+    padding-right: 50px;
+}
+
+nav a:hover{
+    color:dimgray;
+}
+
+                                    /* estilo de imagen y parrafo*/
+.container img{
+    position:absolute;
+    width: 1281px;
+    height: 700px;
+    top: 70px;
+    z-index: -2; 
+}
+
+.container P{
+    background-color:rgb(0,0,0, 70%);
+    border-radius: 0.5em;
+    position:absolute;
+    color:#fff;
+    font-size: 3em;
+    line-height: 1em;
+    text-align: center;
+    width: 50%;
+    padding: 50px;
+    margin: 5em, 5em;
+    z-index: -1;
+    top: 20%;
+    left: 20%
     
 }
 
-#titulo{
-    color: rgb(206, 12, 12);
-    margin: 1.3cm 1cm 0cm 7cm;
-    font-size:1cm;
-    background-color:#fff;
-    border-radius: 1cm;
-    padding: 5px 50px 8px 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 0 1px 0 #ccc,
-    0 2px 0 #c9c9c9,
-    0 3px 0 #bbb, 
-    0 4px 0 #b9b9b9, 
-    0 5px 0 #aaa, 
-    0 6px 1px rgba(0, 0, 0, .1), 
-    0 0 5px rgba(0, 0, 0, .1), 
-    0 1px 3px rgba(0, 0, 0, .3), 
-    0 3px 5px rgba(0, 0, 0, .2), 
-    0 5px 10px rgba(0, 0, 0, .25), 
-    0 10px 10px rgba(0, 0, 0, .2),
-    0 20px 20px rgba(0, 0, 0, .15) ;   
+                                     /*Estilo  Enlace Descargar App*/
+
+.descargar-app{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin-top: 45em;
+    margin-bottom: 1em;    
+    justify-content: center;
+ }  
+
+.logo-google-play{
+    display: flex;
+    height: 60px;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
-#logo{
-    margin: 0cm 0cm 0cm 1cm;
-    border-radius: 0.5cm;
-    float: left
+.logo-app-store{
+    display: flex;
+    height: 45px;  
 }
+                                    
+                                         /*Estilo pie de página*/
 
-
-.img2{margin: 0.5cm 0cm 0cm 1cm;
-    float: left;
-    border-radius: 1cm;
-
-}
-
-.texto-justificado{
-    text-align: justify;
-    margin: 0.8cm 1cm 0cm 15cm;
-    font-size: 1.2cm;
-    color: #fff;
-
-}
-
-
-#funcionamiento{
-    font-size: 1cm;
-    color: #fff;
+.footer{
     text-align: center;
+    background-color: rgb(192, 69, 69);
+    width: 100%;
+    padding: 10px;
+    position:static;  
 }
 
-.primer-paso{
-    font-size: 0.8cm;
-    color: white;
-    margin: 2cm 6cm 0cm 20cm;
-    text-align: justify;
+.footer h2{
+    color:#fff;
+    text-align: center;
+    line-height: 2.5cm;
+    
 }
 
-.segundo-paso{margin:5cm 15cm 0cm 7cm;
-    font-size: 0.8cm;
-    color: white;
-    text-align: justify;
+.footer a{
+    font-size:larger
 }
 
-.fimg2{margin: 2cm 7cm 0cm 1cm;
-    float: right;
-    width: 300px;
-    height: 300px;
+.footer h3{
+    color:#fff;
+    font-size:small;
+    line-height: 3cm;
+    margin:0%;
+    text-align:center;
 }
+    
+    
+/*Responsive mobile
 
-.tercer-paso{font-size: 0.8cm;
-    color: white;
-    margin: 6cm 6cm 0cm 15cm;
-    text-align: justify;
-}
+@media screen and (max-width: 320px){
+    body{
+        background-color:black;
+        background-size: 320px;
+    }
 
-.fimg3{margin: 4cm 1cm 0cm 10cm;
-    float: left;
-    width: 150px;
-    height: 300px;
-}
+    header{
+        background: #333;
+        padding: 1px;
+        justify-content: space-between;
+        align-items: center;
+        left:0%;
+        top:0%;
 
-.cuarto-paso{margin:5cm 15cm 0cm 7cm;
-    font-size: 0.8cm;
-    color: white;
-    text-align: justify;
-}
+    }
+    
+    
+    .Logo{
+        display:flex;
+        align-items: center;
+    }
+    
+    
+    .logo-img{
+        height: 30px;
+        margin-right:10px;
+        margin-left: 10px;
+    }
+    
+    .nombre-app{font-size:smaller;
 
-.fimg4{margin: 3cm 10cm 0cm 1cm;
-    float: right;
-    width: 150px;
-    height: 300px;
-}
+    }
+    
+    nav a{
+        font-weight: 100px;
+        font-size:smaller;
+        padding-right: 1px;
+    }
+    
+    nav a:hover{
+        color:dimgray;
+    }
+    
+    
+    .container img{
+        margin-bottom: 0%;
+        width:100%;
+        height:100%;
+        opacity:60%  
+    }
+
+    .container p{
+        font-size: 1em;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 20%;
+        color: white;
+        position: absolute;
+        top:15%;
+        left:30%;   
+        transform: translate(-50%, -50%);
+        text-shadow: 0 0 8px rgba(0, 0, 0, 2);
+        text-align: justify
+    }
+
+                          /*Estilo  Enlace Descargar App*/
+   /* .container a{
+        font-size:smaller;
+        color: white;
+        position: absolute;
+        top:30%;
+        left:50%;   
+        transform: translate(-50%, -50%); 
+        background-color: rgb(192, 69, 69);
+        padding: 1%;
+        border-radius: 0.5cm;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

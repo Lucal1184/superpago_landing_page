@@ -1,0 +1,136 @@
+body{
+    margin-top: 70px;
+    margin:0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+                                       /*Estilo cabecera*/
+header{
+    display:flex;
+    background-color: rgb(192, 69, 69);
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    left: 0;
+    top:0;
+    position: fixed;
+    font-size:smaller;
+}
+                                    
+
+.logo{
+    display:flex;
+    align-items: center;
+}
+
+
+.logo-img{
+    height: 60px;
+    margin-right:10px;
+    margin-left: 10px;
+}
+
+
+nav a{
+    font-weight: 600px;
+    font-size:22px;
+    padding-right: 50px;
+}
+
+nav a:hover{
+    color:dimgray;
+}
+
+                                /*estilo página contacto*/
+
+.contacto h2{
+    width: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    margin-top: 5em;
+    margin-left: 4em;
+}
+.contacto p{
+    margin-left: 7.5em;
+    font-size:x-large;
+    line-height: 2.5em;
+}
+
+.contacto h3{
+    color: black;
+}
+
+h3:hover{
+    color:chartreuse ;
+}
+
+                
+.imagen{
+    display: flex;
+    height: 30px;
+    margin-right: 1em;
+    margin-left: 11em;
+}
+
+                                /*estilo página sobre la app*/
+
+.que-es-superpago h2{
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 1.5em;
+}
+
+.que-es-superpago p{
+    font-size: 1.3em;
+    text-align: justify;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 10em;
+}
+
+                            /*estilo página aviso de privacidad*/
+
+.aviso-de-privacidad h2{
+    color: black; 
+    margin-top: 5em;
+    text-align: center;
+}
+
+                                  /* Estilo pie de página*/
+.footer{
+    text-align: center;
+    margin: 0%;
+    margin-top: 8em;
+    background-color: rgb(192, 69, 69);
+    width: 100%;
+    padding: 30px;
+
+}
+
+.footer h2{
+    color:#fff;
+    text-align: center;
+    line-height: 2.5cm;
+    
+}
+
+.footer a{
+    font-size:larger
+}
+
+.footer h3{
+    color:#fff;
+    font-size:small;
+    line-height: 3cm;
+    margin:0%;
+    text-align:center;
+}
+
+
+
+
